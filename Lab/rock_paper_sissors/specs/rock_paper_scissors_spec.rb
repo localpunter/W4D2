@@ -5,8 +5,8 @@ class TestRPS < Minitest::Test
 
 
   def test_rock_wins
-    rps = RPS.new("rock", "paper")
-    assert_equal("Hand 2 wins", rps.rock_wins)
+    rps = RPS.new("rock", "scissors")
+    assert_equal("Hand 1 wins", rps.rock_wins)
   end
 
   # def test_hand2
