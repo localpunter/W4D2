@@ -1,8 +1,8 @@
 class RPS
 
   def initialize(hand1, hand2)
-    @@hand1 = hand1
-    @@hand2 = hand2
+    @hand1 = hand1
+    @hand2 = hand2
   end
 
   def rock_wins
