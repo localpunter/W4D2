@@ -18,11 +18,14 @@ get '/add/:num1/:num2' do
   # return "#{calculator.add()}"
   @calculation = calculator.add()
   erb(:results)
-  #erb looks in the views folder
-  #which has the 'results.erb' file for :result
+  # erb looks in the views folder
+  # which has the 'results.erb' file for :result
   #
   # <%= yield %> in the 'layout.erb' file acts as
   # copy and paste
+  #
+  # The style.css file is saved in a public folder at the same level
+  # as the views folder.
 end
 
 get '/subtract/:num1/:num2' do
